@@ -1,0 +1,55 @@
+.chatWrapper{
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: scroll;
+    height: inherit;
+}
+
+.chatBubbleWrapper{
+    justify-content: flex-start;
+    padding: 2px 0;
+    
+}
+
+.chatBubbleWrapper.mine{
+    justify-content: flex-end;
+}
+
+.chatBubbleWrapper.mine .chatContent{
+    text-align: flex-end;
+}
+
+.chatBubble{
+    flex-direction: column;
+    padding: 7px 12px;
+    background-color: rgb(55, 151, 240);
+    border-radius: 18px;
+    max-width: 564px;
+    overflow: hidden;
+    max-width: 50%;
+    /* align-items: flex-start; */
+}
+
+.chatWrapper .time{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.chatBubble .chatTime{
+    font-size: 11px;
+}
+
+.chatBubble .chatContent{
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    text-align: flex-start;
+}
+
+.chatsScroller{
+    flex-direction: column;
+    justify-content: flex-end;
+}

@@ -1,0 +1,41 @@
+
+.topBarWrapper{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.sideWrapper{
+    position: fixed;
+    left: 0;
+}
+
+.sideWrapper.mobileMode{
+    bottom: 0;
+}
+
+.tab.rootOutlet{
+    margin-left: 250px;
+}
+
+.tab.minified{
+    margin-left: 75px;
+}
+
+.tab.mobileMode{
+    margin-left: 0;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    height: 100%;
+}
+
+.extensionWrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 75px;
+    transition: position 0.6s ease-in;
+    z-index: 99;
+}

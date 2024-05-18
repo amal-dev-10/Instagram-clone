@@ -1,0 +1,38 @@
+.textBox2{
+    position: relative;
+    background-color: rgb(237, 237, 237);
+    padding: 5px 15px;
+    border-radius: 7px;
+    width: 100%;
+    gap: 5px;
+    height: 40px;
+}
+
+.textBoxLogo{
+    font-size: inherit;
+    color: rgb(173, 173, 173);
+}
+
+.textBox2 input{
+    padding: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    flex: 1;
+}
+
+.textBox2 input::placeholder{
+    font-size: 15px;
+}
+
+.cancelRoundX{
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: rgb(222, 222, 222);
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    font-size: 10px;
+    right: 12px;
+    margin: auto;
+}

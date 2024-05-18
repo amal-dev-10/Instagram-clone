@@ -1,0 +1,287 @@
+.uploadDialog{
+    flex-direction: column;
+    max-height: 653px;
+    max-width: 910px;
+    min-height: 466px;
+    min-width: 348px;
+    width: 459px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.4s ease-in;
+}
+
+.uploadDialog.extend{
+    width: 810px;
+}
+
+.uploadDialog.extend .dialogBottom{
+    background-color: black;
+}
+
+.uploadDialog .uploadPostBottom{
+    flex: 1;
+}
+
+.uploadDialog .top{
+    position: relative;
+    padding: 13px 5px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.top .title{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.uploadDialog .dialogBottom{
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    transition: 0.3s ease-in;
+}
+
+.dialogBottom .desc{
+    font-size: 20px;
+}
+
+.iconWrapper.media svg{
+    height: 100px;
+    width: 100px;
+}
+
+.iconWrapper.arrow{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.butttonsWrapper{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    gap: 10px;
+}
+
+.butttonsWrapper .textBtn{
+    color: rgb(var(--ig-primary-button));
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dialogBottom.previewWrapper{
+    height: 460px;
+    width: 460px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.dialogBottom.previewWrapper .preview{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+    overflow: hidden;
+    width: 460px;
+    transform: none;
+    transition: 0.2s ease-in;
+}
+
+.cropProcedureBottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.cropProcedureBottom .wrapper{
+    justify-content: space-between;
+    position: relative;
+}
+
+.wrapper .allPosts{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 10px;
+    border-radius: 5px;
+    right: 0;
+    top: -135px;
+    gap: 10px;
+    align-items: flex-start;
+    transition: 0.3s ease-in-out;
+}
+
+.allPosts .postPreview{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.postPreview .iconWrapper.cross{
+
+}
+
+.allPosts .iconWrapper.cross svg{
+    height: 8px;
+    width: 8px;
+    fill: rgb(204, 204, 204);
+}
+
+.postPreview .iconWrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.722);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toolWrapper{
+}
+
+.toolWrapper .tool{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+}
+
+.tool svg{
+    color: white;
+}
+
+.addPost{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.plus svg{
+    fill: gray;
+    height: 30px;
+    width: 30px;
+}
+
+.bottomRight{
+    width: 350px;
+    height: 460px;
+    overflow-y: scroll;
+}
+
+.postForm{
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.postForm .postFormTop{
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.postFormTop .userName{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.captionDiv{
+    height: 200px;
+    flex-direction: column;
+}
+
+.captionDiv .lengthCount{
+    font-size: 12px;
+    color: rgb(192, 192, 192);
+}
+
+.captionDiv textarea{
+    overflow: hidden;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textAreaTools{
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.otherOptionsDiv{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.sec{
+    flex-direction: column;
+    border-top: 1px solid rgb(207, 207, 207);
+    border-bottom: 1px solid rgb(207, 207, 207);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.sec .divisionTop{
+    padding: 12px 15px;
+    justify-content: space-between;
+}
+
+.iconWrapper.open{
+    transform: rotate(180deg);
+}
+
+.divisionContent{
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 15px;
+    padding-bottom: 20px;
+}
+
+.divisionContent .setting{
+    flex-direction: column;
+    gap: 5px;
+}
+
+.setting .contentTop{
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.setting .contentBottom{
+    justify-content: flex-start;
+}
+
+.setting .title{
+    font-size: 17px;
+    width: 90%;
+    text-align: left;
+}
+
+.setting .desc{
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}

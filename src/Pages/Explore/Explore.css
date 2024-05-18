@@ -1,0 +1,39 @@
+.exploreWholeWrapper{
+    overflow-y: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.exploreWrapper{
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.exploreWrapper .exploreSection{
+    gap: 5px;
+}
+
+.exploreSection:nth-child(2n-1){
+    flex-direction: row-reverse;
+}
+
+.exploreSection .block{
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+    width: 100%;
+}
+
+.exploreSection .postsBlock{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+.width100{
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+.edit{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.editWrapper{
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    height: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.editWrapper .title{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.edit .profileCard{
+    padding: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+}
+
+.edit .profileCard .profileCardLeft{
+    flex: 1;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.profileCardLeft .profileAlt{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(224, 224, 224);
+}
+
+.profileCardLeft .profileDetail{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profileCardRight{
+    height: 100%;
+}
+
+.edit .profileCard .userName{
+    font-weight: 700;
+}
+
+.edit .profileCard .profileName{
+    color: gray;
+    font-size: 14px;
+}
+
+.inputWrapper{
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.inputWrapper .inputTitle{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.inputWrapper .specialInput{
+    border-radius: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 2px;
+}
+
+.specialInput input{
+    padding: 10px 15px;
+    flex: 1;
+    font-size: 17px;
+}
+
+.btnDiv{
+    justify-content: flex-end;
+}
+
+.buttonWrapper{
+    width: 30%;
+    justify-content: flex-end;
+}

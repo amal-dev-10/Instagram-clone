@@ -1,0 +1,392 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainLeftWrapper{
+    flex: 1;
+    overflow: hidden;
+}
+
+.homeRight{
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.home.mobileMode{
+    padding-top: 62px;
+    padding-bottom: 55px;
+}
+
+.mobileMode .homeRight{
+    flex: 1;
+    width: 100vw;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 40px;
+}
+
+.main .mainLeft{
+    width: 100%;
+    max-width: 630px;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.main .mainRight{
+    width: 400px;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainLeft .storiesDiv{
+    position: relative;
+    padding: 25px 10px;
+    width: inherit;
+}
+
+.storyWrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.mainLeft .storyWrapper{
+    justify-content: flex-start;
+    overflow-y: hidden;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 0 5px;
+    transition: 1s ease-in-out;
+}
+
+.storiesDiv .story{
+    flex-direction: column;
+    width: 60px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.story .storyThumbnail{
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: rgb(239, 239, 239)
+}
+
+.story .storyUsername{
+    font-size: 12px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.addStoryPlus{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    padding: 4px;
+    background-color: rgb(var(--ig-primary-button));
+}
+
+.addStoryPlus svg{
+    fill: white;
+    height: 15px;
+    width: 15px;
+}
+
+.width100{
+    width: 100%;
+}
+
+.postWrapper{
+    max-width: 100%;
+    width: min(470px, 100vw);
+    flex-direction: column;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 5px;
+}
+
+.postWrapper .postTop{
+    padding: 10px 0;
+}
+
+.postTop .postAuthor{
+    flex: 1;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+.postAuthor .profileAlt{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 50%;
+}
+
+.postAuthor .authorDiv{
+    gap: 5px;
+}
+
+.authorDiv .authorName{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.authorDiv .dot{
+    height: 2px;
+    width: 2px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.authorDiv .agoTime{
+    color: gray;
+    font-size: 15px;
+}
+
+.postWrapper .postBottom{
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 9px;
+}
+
+.postBottomTop{
+    justify-content: space-between;
+}
+
+.postBottomTop .postBottomTopLeft{
+    gap: 20px;
+}
+
+.postBottom .likesDiv{
+    justify-content: flex-start;
+}
+
+.likesDiv .likesText{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.userAndCaptionDiv{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.userAndCaptionDiv .userNameText{
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 14px;
+    text-align: left;
+}
+
+.homeRight.mobileMode .main{
+    padding: 0px;
+}
+
+.postWrapper .viewAllCommentsDiv{
+    justify-content: flex-start;
+}
+
+.viewAllCommentsDiv span{
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.postContent{
+    height: 400px;
+    width: 100%;
+}
+
+.postImageAlt{
+    position: relative;
+    background-color: rgb(232, 232, 232);
+    height: 100%;
+    width: 100%;
+}
+
+.active .postImageAlt{
+    background-color: black;
+}
+
+.userNameText .userName{
+    font-weight: 600;
+}
+
+.addCommentDiv input{
+    flex: 1;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.addCommentDiv input::placeholder{
+    font-size: 14px;
+}
+
+.postsView{
+    flex-direction: column;
+}
+
+.iconButton{
+    cursor: pointer;
+}
+
+.iconButton:hover{
+    opacity: 0.5;
+}
+
+.iconButton.saveIcon svg{
+    height: 25px;
+    width: 25px;
+}
+
+.rightComponent{
+    width: 300px;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.rightComponent .rightComponentTop{
+
+}
+
+.profileCard{
+    gap: 10px;
+}
+
+.profileCard .profileAlt{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    background-color: rgb(235, 235, 235);   
+}
+
+.profileCard .profileDetailsWrapper{
+    flex: 1;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.profileCard .profileDetails{
+    flex-direction: column;
+    gap: 0px;
+}
+
+.profileCard .seeProfile{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(var(--ig-primary-button));
+}
+
+.profileDetails .userName{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.profileDetails .profileName{
+    font-size: 15px;
+    color: gray;
+    font-weight: 400 !important;
+}
+
+.rightTitleDiv{
+    justify-content: space-between;
+}
+
+.rightTitleDiv .title{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+
+.rightTitleDiv .titleBtn{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.disclaimerDiv{
+    width: 300px;
+}
+
+.disclaimerDiv .disclaimer{
+    font-size: 13px;
+    color: rgb(205, 205, 205);
+    text-align: justify;
+}
+
+.mediaImage {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.spinnerWrapper{
+    height: 100px;
+}
+
+.caughtUp{
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.caughtUp div{
+    gap: 10px;
+}
+
+.caughtUp div .designLine{
+    height: 1px;
+    background-color: gray;
+    flex: 1;
+}
+
+.caughtUp svg{
+    height: 50px;
+    width: 50px;
+}
+
+.caughtUp svg{
+    color: rgb(206, 206, 206);
+}
+
+.caughtUp .design{
+    gap: 10px;
+}
+
+.caughtUp .designLine{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+
+.caughtUp .caughtUpText{
+    color: black;
+    font-size: 20px;
+}
+
+.postWrapper:last-child{
+    border-bottom: none;
+}
+
+@media screen and (max-width: 1160px){
+    .mainRight{
+        display: none;
+    }
+}

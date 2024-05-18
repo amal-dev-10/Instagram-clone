@@ -1,0 +1,30 @@
+.createPopUp{
+    position: fixed;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 4px 0 24px rgba(var(--web-always-black),.15);
+    border-radius: 15px;
+    width: 200px;
+    left: 10px;
+    transform: translateY(110px);
+    z-index: 999;
+    transition: 0.5s ease-in-out;
+}
+
+.createPopUp .createOption{
+    padding: 13px 15px;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+.createOption:hover{
+    background-color: rgb(242, 242, 242);
+}
+
+.createPopUp.mobileMode{
+    bottom: 0;
+    right: 0;
+    transform: translateY(-62px) translateX(-85px);
+    left: unset;
+}

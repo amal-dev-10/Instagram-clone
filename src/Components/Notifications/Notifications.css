@@ -1,0 +1,38 @@
+.notificationsDiv{
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 4px 0 24px rgba(var(--web-always-black),.15);
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    padding: 20px 25px;
+}
+
+.notificationsDiv .notificationTitleDiv{
+    justify-content: flex-start;
+}
+
+.notificationTitleDiv .title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.notificationsDiv .timeDiv{
+    justify-content: flex-start;
+}
+
+.timeDiv .timeAgo{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.notificationsDiv .notifications{
+    flex: 1;
+}
+
+.width100{
+    width: 100%;
+}

@@ -1,0 +1,139 @@
+.loginPage{
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.authWrapper{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.authContainer{
+    flex-direction: column;
+    padding: 10px 40px;
+    width: 30%;
+    width: 350px;
+    border: 1px solid rgb(226, 226, 226)
+}
+
+.instaLogo{
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png);
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 40px;
+}
+
+.orDivider{
+    gap: 20px;
+    color: rgb(175, 175, 175);
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    margin: 10px 0;
+}
+.seperator{
+    height: 1px;
+    background-color: rgb(220, 220, 220);
+    flex: 1;
+}
+
+.button2{
+    position: relative;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+}
+
+.facebookIcon{
+    color: rgb(var(--ig-facebook-blue));
+}
+
+.googleIcon{
+    color: crimson;
+}
+
+.button2Icon{
+    position: absolute;
+    left: 15px;
+}
+
+.button2Set{
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button2:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.sentence{
+    font-size: 14px;
+    /* margin: 20px; */
+}
+
+.link{
+    color: rgb(var(--ig-primary-button));
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bottomAuthContainer{
+    padding: 20px;
+}
+
+.forgotPassword{
+    font-size: 12px;
+    color: rgb(var(--ig-link));
+    margin: 20px;
+}
+
+.appGetAppContainer{
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.iosAndAndroid{
+    gap: 10px;
+}
+
+.wholeWrapper{
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signupTitle{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.inputDiv{
+    width: 100%;
+    flex-direction: column;
+}
+
+.tAndC{
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.tAndC .forgotPassword{
+    margin: 0 !important;
+}

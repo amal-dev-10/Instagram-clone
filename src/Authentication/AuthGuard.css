@@ -1,0 +1,14 @@
+.splash{
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.splash .img{
+    width: 50px;
+    height: auto;
+}

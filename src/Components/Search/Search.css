@@ -1,0 +1,135 @@
+.searchMainDiv{
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 4px 0 24px rgba(var(--web-always-black),.15);
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+.searchMainDiv .searchTop{
+    flex-direction: column;
+    /* gap: 10px; */
+    padding: 10px 20px;
+}
+
+.searchTop .searchText{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.searchMainDiv .searchTitle{
+    justify-content: flex-start;
+    padding: 25px 0;
+}
+
+.searchTop .searchBarMainDiv{
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.searchTop .searchBarDiv{
+    width: 100%;
+}
+
+.border .seperator{
+    height: 1px;
+    background-color: rgb(198, 198, 198);
+    width: calc(100%);
+}
+
+.searchMainDiv .recentSearchesDiv{
+    height: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.recentSearchesDiv .recentTitle{
+    justify-content: flex-start;
+}
+
+.recentTitle .recentText{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.recentSearchesDiv .recentSearchContent{
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    width: 100%;
+}
+
+.searchCard{
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.searchCard:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.searchCard .profileAlt{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(222, 222, 222);
+}
+
+.searchCardDetails{
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.con{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.searchCard .userName{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.searchCard .fullName{
+    color: gray;
+    font-size: 14px;
+}
+
+.noRecentWrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.noRecentWrapper .noRecent{
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+}
+
+.width100{
+    width: 100%;
+}
+
+.searchWrapper{
+    flex: 1;
+}
+
+.clearIcon{
+    width: 10px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.clearIcon svg{
+    fill: black;
+}

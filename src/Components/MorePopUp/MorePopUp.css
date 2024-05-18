@@ -1,0 +1,22 @@
+.morePopUp{
+    width: 250px;
+    position: fixed;
+    left: 10px;
+    bottom: 80px;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.129);
+    z-index: 999;
+}
+
+.morePopUp .option{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.morePopUp .option{
+    justify-content: flex-start !important;
+}

@@ -1,0 +1,200 @@
+.frame .sidebarWrapper{
+    width: fit-content;
+}
+
+.messageMainWrapper{
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.messageMainWrapper .messageLeft{
+    flex-direction: column;
+    height: 100%;
+    width: 397px;
+    border-right: 1px solid rgb(223, 223, 223);
+}
+
+.messageLeft .leftTop{
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.leftTop .userNameDiv{
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px 25px;
+    margin: 5px 0;
+    margin-top: 30px;
+}
+
+.userNameDiv .userName{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.topTabs .topTab{
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.topTab span{
+    color: gray;
+}
+
+.topTab.selected{
+    border-bottom: 1px solid black;
+    color: black;
+    font-weight: 500;
+}
+
+.messageLeft .leftBottom{
+    flex: 1;
+    width: 100%;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+.leftBottom .conversationCardDiv{
+    flex-direction: column;
+}
+
+.convCard{
+    gap: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.convCard.selected{
+    background-color: rgb(238, 238, 238);
+}
+
+.convCard .profileAlt{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(215, 215, 215);
+}
+
+.onlineMarker{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(0, 199, 0);
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.convCard .convDetails{
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.convDetails .convName{
+    font-size: 14px;
+}
+
+.convDetails .agoTime{
+    font-size: 12px;
+    color: gray;
+}
+
+.messageMainWrapper .messageRight{
+    flex: 1;
+    height: 100%;
+}
+
+.messageRight .noChatOpenDiv{
+    height: 100%;
+    width: 100%;
+}
+
+.noChatOpenDiv .noChatCard{
+    flex-direction: column;
+    gap: 12px;
+}
+
+.noChatCard .title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.noChatCard .subTitle{
+    color: gray;
+    font-size: 14px;
+}
+
+.noChatCard > span{
+    flex-direction: column;
+}
+
+.noChatCard .buttonWrapper{
+    width: 140px;
+}
+
+.buttonWrapper .button{
+    opacity: 1;
+}
+
+.messageRight .chatDiv{
+    height: 100%;
+    flex-direction: column;
+}
+
+.chatDiv .chatTop{
+    height: 70px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.chatTop .chatTopRight{
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.chatDiv .chatContent{
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: hidden;
+}
+
+.chatTop .convName{
+    font-weight: 600;
+}
+
+.chatDiv .chatBoxDiv{
+    padding: 15px 15px;
+}
+
+.chatInput{
+    padding: 10px 15px;
+    border: 1px solid rgb(223, 223, 223);
+    height: 45px;
+    border-radius: 45px;
+    gap: 10px;
+}
+
+.chatInput .chatIn{
+    flex: 1;
+    height: 100%;
+    font-size: 15px;
+}
+
+.chatIn::placeholder{
+    font-size: 15px;
+}
+
+.chatInput .chatInputRight{
+    gap: 18px;
+    margin-right: 10px;
+}
+
+.width100{
+    width: 100%;
+}

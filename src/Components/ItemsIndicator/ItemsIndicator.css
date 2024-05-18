@@ -1,0 +1,15 @@
+.itemsWrapper{
+    gap: 2px;
+}
+
+.itemsWrapper .item{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    transition: 0.3s ease-in;
+}
+
+.item.selected{
+    background-color: gray;
+}
